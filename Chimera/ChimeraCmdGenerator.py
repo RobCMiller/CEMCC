@@ -108,6 +108,50 @@ class ChimeraCmdGenerator:
 
     return zoneCmd
 
+  def ChimeraXtalContactLogFileParser_3Partners(filename,
+                                                sym1='5',
+                                                sym2='1',
+                                                sym3='2'):
+    '''
+    group 1 = ID
+    group 2 = Res #
+    group 3 = chain ID
+
+    group 5 = ID 2
+    group 6 = Res # 2
+    group 7 = chain ID 2
+    group 9 = symexp
+
+    for symexp 
+    symexp 5 = model #1
+    symexp 1 = model #2
+    symexp 2 = model #3
+
+    reference model = model #0
+    '''
+    with open(filename) as file:
+        lines = [line.rstrip() for line in file]
+
+    p = re.compile(r'\s+[A-Z]{3}')
+    p2 = re.compile(r'\s+([A-Z]{3})\s(\d+)\s([A-Z]{1})\s*(\d)\s*([A-Z]{3})\s(\d+)\s([A-Z]{1})\s*(\d)\s*(\d)')
+
+    cmdList = []
+
+    for j in lines:
+      if p.match(j) is not None:
+        if p2.match(j).group(9) == sym1:
+          model = '1'
+        elif p2.match(j).group(9) == sym2:
+          model = '2'
+        elif p2.match(j).group(9) == sym3:
+          model = '3'
+        cmd = 'distance #%s:%s.%s@ca #%s:%s.%s@ca ; '%( str(model), p2.match(j).group(2), p2.match(j).group(3), '0', p2.match(j).group(6), p2.match(j).group(7) )
+        cmdList.append(cmd)
+
+    print("".join(cmdList))
+
+    return "".join(cmdList)
+
   def localCorrelationBtwVolumes(self):
     '''
 
