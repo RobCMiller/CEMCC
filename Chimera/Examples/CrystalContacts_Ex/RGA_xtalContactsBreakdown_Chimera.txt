@@ -1,0 +1,88 @@
+You are now running Chimera version 1.15 (build 42221).
+Your previous version was 1.15 (build 42258).
+Check the release notes for new features and other info.
+(To access the release notes, use the Help menu to bring up the User's Guide.
+Then click the 'Documentation index' link and you will then see a link
+for the release notes.)
+Model 0 (Neti_RGA_Structure.pdb) appears to be a protein without secondary structure assignments.
+Automatically computing assignments using 'ksdssp' and parameter values:
+  energy cutoff -0.5
+  minimum helix length 3
+  minimum strand length 3
+Use command 'help ksdssp' for more information.
+Neti_RGA_Structure.pdb opened
+3 pairs of NCS asymmetric units of Neti_RGA_Structure.pdb contact at distance 3.0 A
+  Atoms	  MTRIX	 SMTRY	Unit cell	MTRIXref	  Copies
+     18	      0	     1	-1 -1  0 	     0	      1
+     17	      0	     2	 0 -1  0 	     0	      1
+      8	      0	     5	 0  0  1 	     0	      1
+
+Residue contacts, 24 residues
+  residue1		ncs1	  residue2		ncs2	sym2	  cell2	distance
+  THR 53 A		  0	  SER 80 A		  0	  1	-1 -1  0	  2.79
+  ARG 54 A		  0	  GLU 86 A		  0	  1	-1 -1  0	  2.62
+  ARG 56 A		  0	  GLY 72 A		  0	  1	-1 -1  0	  2.97
+  GLY 72 A		  0	  ARG 56 A		  0	  2	 0 -1  0	  2.97
+  ASP 75 A		  0	  ASN 78 A		  0	  1	-1 -1  0	  2.95
+  ASN 78 A		  0	  ASP 75 A		  0	  2	 0 -1  0	  2.95
+  SER 80 A		  0	 PAL 401 A		  0	  2	 0 -1  0	  2.63
+  SER 80 A		  0	  THR 53 A		  0	  2	 0 -1  0	  2.79
+  LYS 84 A		  0	 PAL 401 A		  0	  2	 0 -1  0	  2.49
+  GLU 86 A		  0	  ARG 54 A		  0	  2	 0 -1  0	  2.62
+  ASP 90 A		  0	 ARG 269 A		  0	  2	 0 -1  0	  2.79
+ ARG 269 A		  0	  ASP 90 A		  0	  1	-1 -1  0	  2.79
+ PAL 401 A		  0	  SER 80 A		  0	  1	-1 -1  0	  2.63
+ PAL 401 A		  0	  LYS 84 A		  0	  1	-1 -1  0	  2.49
+  ARG 17 C		  0	 ASP 180 C		  0	  5	 0  0  1	  2.79
+  ASP 18 C		  0	 LYS 205 C		  0	  5	 0  0  1	  2.84
+  THR 53 C		  0	  SER 80 C		  0	  2	 0 -1  0	  2.87
+  ARG 54 C		  0	  GLU 86 C		  0	  2	 0 -1  0	  2.62
+  ARG 56 C		  0	  GLY 72 C		  0	  2	 0 -1  0	  2.84
+  GLY 72 C		  0	  ARG 56 C		  0	  1	-1 -1  0	  2.84
+  SER 80 C		  0	  THR 53 C		  0	  1	-1 -1  0	  2.87
+  SER 80 C		  0	 PAL 401 C		  0	  1	-1 -1  0	  2.35
+  LYS 84 C		  0	 PAL 401 C		  0	  1	-1 -1  0	  1.3
+  GLU 86 C		  0	  ARG 54 C		  0	  1	-1 -1  0	  2.62
+ ASP 180 C		  0	 ASP 180 C		  0	  5	 0  0  1	  2.85
+ ASP 180 C		  0	  ARG 17 C		  0	  5	 0  0  1	  2.79
+ LYS 205 C		  0	  ASP 18 C		  0	  5	 0  0  1	  2.84
+ PAL 401 C		  0	  SER 80 C		  0	  2	 0 -1  0	  2.35
+ PAL 401 C		  0	  LYS 84 C		  0	  2	 0 -1  0	  1.3
+3 pairs of NCS asymmetric units of Neti_RGA_Structure.pdb contact at distance 3.0 A
+  Atoms	  MTRIX	 SMTRY	Unit cell	MTRIXref	  Copies
+     18	      0	     1	-1 -1  0 	     0	      1
+     17	      0	     2	 0 -1  0 	     0	      1
+      8	      0	     5	 0  0  1 	     0	      1
+
+Residue contacts, 24 residues
+  residue1		ncs1	  residue2		ncs2	sym2	  cell2	distance
+  THR 53 A		  0	  SER 80 A		  0	  1	-1 -1  0	  2.79
+  ARG 54 A		  0	  GLU 86 A		  0	  1	-1 -1  0	  2.62
+  ARG 56 A		  0	  GLY 72 A		  0	  1	-1 -1  0	  2.97
+  GLY 72 A		  0	  ARG 56 A		  0	  2	 0 -1  0	  2.97
+  ASP 75 A		  0	  ASN 78 A		  0	  1	-1 -1  0	  2.95
+  ASN 78 A		  0	  ASP 75 A		  0	  2	 0 -1  0	  2.95
+  SER 80 A		  0	 PAL 401 A		  0	  2	 0 -1  0	  2.63
+  SER 80 A		  0	  THR 53 A		  0	  2	 0 -1  0	  2.79
+  LYS 84 A		  0	 PAL 401 A		  0	  2	 0 -1  0	  2.49
+  GLU 86 A		  0	  ARG 54 A		  0	  2	 0 -1  0	  2.62
+  ASP 90 A		  0	 ARG 269 A		  0	  2	 0 -1  0	  2.79
+ ARG 269 A		  0	  ASP 90 A		  0	  1	-1 -1  0	  2.79
+ PAL 401 A		  0	  SER 80 A		  0	  1	-1 -1  0	  2.63
+ PAL 401 A		  0	  LYS 84 A		  0	  1	-1 -1  0	  2.49
+  ARG 17 C		  0	 ASP 180 C		  0	  5	 0  0  1	  2.79
+  ASP 18 C		  0	 LYS 205 C		  0	  5	 0  0  1	  2.84
+  THR 53 C		  0	  SER 80 C		  0	  2	 0 -1  0	  2.87
+  ARG 54 C		  0	  GLU 86 C		  0	  2	 0 -1  0	  2.62
+  ARG 56 C		  0	  GLY 72 C		  0	  2	 0 -1  0	  2.84
+  GLY 72 C		  0	  ARG 56 C		  0	  1	-1 -1  0	  2.84
+  SER 80 C		  0	  THR 53 C		  0	  1	-1 -1  0	  2.87
+  SER 80 C		  0	 PAL 401 C		  0	  1	-1 -1  0	  2.35
+  LYS 84 C		  0	 PAL 401 C		  0	  1	-1 -1  0	  1.3
+  GLU 86 C		  0	  ARG 54 C		  0	  1	-1 -1  0	  2.62
+ ASP 180 C		  0	 ASP 180 C		  0	  5	 0  0  1	  2.85
+ ASP 180 C		  0	  ARG 17 C		  0	  5	 0  0  1	  2.79
+ LYS 205 C		  0	  ASP 18 C		  0	  5	 0  0  1	  2.84
+ PAL 401 C		  0	  SER 80 C		  0	  2	 0 -1  0	  2.35
+ PAL 401 C		  0	  LYS 84 C		  0	  2	 0 -1  0	  1.3
+

@@ -1,6 +1,7 @@
 # General Code for generating a Chimera script to input .mrc/.pdb files 
 
 # Imports
+import re
 
 class ChimeraCmdGenerator:
   '''
@@ -108,7 +109,7 @@ class ChimeraCmdGenerator:
 
     return zoneCmd
 
-  def ChimeraXtalContactLogFileParser_3Partners(filename,
+  def ChimeraXtalContactLogFileParser_3Partners(self,filename,
                                                 sym1='5',
                                                 sym2='1',
                                                 sym3='2'):
