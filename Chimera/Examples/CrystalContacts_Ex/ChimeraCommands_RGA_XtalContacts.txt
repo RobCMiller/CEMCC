@@ -9,18 +9,24 @@ lighting mode two-point ;
 lighting brightness 1.12 ;
 lighting contrast 0.73 ;
 lighting ratio 1.55 ;
-set dcStart 0.25 ;
-set dcEnd 0.45 ;
+set dcStart 0.37 ;
+set dcEnd 0.65 ;
 set depthCue ;
 set silhouetteWidth 6 ;
 set silhouette ;
 set singleLayer ;
 
+
+copy file ./symmetryMates_v1.png png dpi 300 supersample 3 ; 
 save RGA_Neti_CrystalContacts.py ; 
 
-distance #2:53.A@ca #0:80.A@ca ; distance #2:54.A@ca #0:86.A@ca ; distance #2:56.A@ca #0:72.A@ca ; distance #3:72.A@ca #0:56.A@ca ; distance #2:75.A@ca #0:78.A@ca ; distance #3:78.A@ca #0:75.A@ca ; distance #3:80.A@ca #0:401.A@ca ; distance #3:80.A@ca #0:53.A@ca ; distance #3:84.A@ca #0:401.A@ca ; distance #3:86.A@ca #0:54.A@ca ; distance #3:90.A@ca #0:269.A@ca ; distance #2:269.A@ca #0:90.A@ca ; distance #2:401.A@ca #0:80.A@ca ; distance #2:401.A@ca #0:84.A@ca ; distance #1:17.C@ca #0:180.C@ca ; distance #1:18.C@ca #0:205.C@ca ; distance #3:53.C@ca #0:80.C@ca ; distance #3:54.C@ca #0:86.C@ca ; distance #3:56.C@ca #0:72.C@ca ; distance #2:72.C@ca #0:56.C@ca ; distance #2:80.C@ca #0:53.C@ca ; distance #2:80.C@ca #0:401.C@ca ; distance #2:84.C@ca #0:401.C@ca ; distance #2:86.C@ca #0:54.C@ca ; distance #1:180.C@ca #0:180.C@ca ; distance #1:180.C@ca #0:17.C@ca ; distance #1:205.C@ca #0:18.C@ca ; distance #3:401.C@ca #0:80.C@ca ; distance #3:401.C@ca #0:84.C@ca ; distance #2:53.A@ca #0:80.A@ca ; distance #2:54.A@ca #0:86.A@ca ; distance #2:56.A@ca #0:72.A@ca ; distance #3:72.A@ca #0:56.A@ca ; distance #2:75.A@ca #0:78.A@ca ; distance #3:78.A@ca #0:75.A@ca ; distance #3:80.A@ca #0:401.A@ca ; distance #3:80.A@ca #0:53.A@ca ; distance #3:84.A@ca #0:401.A@ca ; distance #3:86.A@ca #0:54.A@ca ; distance #3:90.A@ca #0:269.A@ca ; distance #2:269.A@ca #0:90.A@ca ; distance #2:401.A@ca #0:80.A@ca ; distance #2:401.A@ca #0:84.A@ca ; distance #1:17.C@ca #0:180.C@ca ; distance #1:18.C@ca #0:205.C@ca ; distance #3:53.C@ca #0:80.C@ca ; distance #3:54.C@ca #0:86.C@ca ; distance #3:56.C@ca #0:72.C@ca ; distance #2:72.C@ca #0:56.C@ca ; distance #2:80.C@ca #0:53.C@ca ; distance #2:80.C@ca #0:401.C@ca ; distance #2:84.C@ca #0:401.C@ca ; distance #2:86.C@ca #0:54.C@ca ; distance #1:180.C@ca #0:180.C@ca ; distance #1:180.C@ca #0:17.C@ca ; distance #1:205.C@ca #0:18.C@ca ; distance #3:401.C@ca #0:80.C@ca ; distance #3:401.C@ca #0:84.C@ca ; distance #2:53.A@ca #0:80.A@ca ; distance #2:54.A@ca #0:86.A@ca ; distance #2:56.A@ca #0:72.A@ca ; distance #3:72.A@ca #0:56.A@ca ; distance #2:75.A@ca #0:78.A@ca ; distance #3:78.A@ca #0:75.A@ca ; distance #3:80.A@ca #0:401.A@ca ; distance #3:80.A@ca #0:53.A@ca ; distance #3:84.A@ca #0:401.A@ca ; distance #3:86.A@ca #0:54.A@ca ; distance #3:90.A@ca #0:269.A@ca ; distance #2:269.A@ca #0:90.A@ca ; distance #2:401.A@ca #0:80.A@ca ; distance #2:401.A@ca #0:84.A@ca ; distance #1:17.C@ca #0:180.C@ca ; distance #1:18.C@ca #0:205.C@ca ; distance #3:53.C@ca #0:80.C@ca ; distance #3:54.C@ca #0:86.C@ca ; distance #3:56.C@ca #0:72.C@ca ; distance #2:72.C@ca #0:56.C@ca ; distance #2:80.C@ca #0:53.C@ca ; distance #2:80.C@ca #0:401.C@ca ; distance #2:84.C@ca #0:401.C@ca ; distance #2:86.C@ca #0:54.C@ca ; distance #1:180.C@ca #0:180.C@ca ; distance #1:180.C@ca #0:17.C@ca ; distance #1:205.C@ca #0:18.C@ca ; distance #3:401.C@ca #0:80.C@ca ; distance #3:401.C@ca #0:84.C@ca ;
+distance #0:53.A@ca #2:80.A@ca ; distance #0:54.A@ca #2:86.A@ca ; distance #0:56.A@ca #2:72.A@ca ; distance #0:72.A@ca #3:56.A@ca ; distance #0:75.A@ca #2:78.A@ca ; distance #0:78.A@ca #3:75.A@ca ; distance #0:80.A@ca #3:53.A@ca ; distance #0:86.A@ca #3:54.A@ca ; distance #0:90.A@ca #3:269.A@ca ; distance #0:269.A@ca #2:90.A@ca ; distance #0:17.C@ca #1:180.C@ca ; distance #0:18.C@ca #1:205.C@ca ; distance #0:53.C@ca #3:80.C@ca ; distance #0:54.C@ca #3:86.C@ca ; distance #0:56.C@ca #3:72.C@ca ; distance #0:72.C@ca #2:56.C@ca ; distance #0:80.C@ca #2:53.C@ca ; distance #0:86.C@ca #2:54.C@ca ; distance #0:180.C@ca #1:17.C@ca ; distance #0:180.C@ca #1:180.C@ca ; distance #0:205.C@ca #1:18.C@ca ; 
 
 setattr p color black ; setattr g lineType 2 ; 
 setattr g lineWidth 5 ; 
 
+
+copy file ./symmetryMates_wDist_v1.png png dpi 300 supersample 3 ; 
 save RGA_Neti_CrystalContacts.py ; 
+
+######### PALA MIGHT BE A CRYSTAL CONTACT ....... ########

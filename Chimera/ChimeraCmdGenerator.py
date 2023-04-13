@@ -112,7 +112,8 @@ class ChimeraCmdGenerator:
   def ChimeraXtalContactLogFileParser_3Partners(self,filename,
                                                 sym1='5',
                                                 sym2='1',
-                                                sym3='2'):
+                                                sym3='2',
+                                                exceptRes=None):
     '''
     group 1 = ID
     group 2 = Res #
@@ -146,8 +147,14 @@ class ChimeraCmdGenerator:
           model = '2'
         elif p2.match(j).group(9) == sym3:
           model = '3'
-        cmd = 'distance #%s:%s.%s@ca #%s:%s.%s@ca ; '%( str(model), p2.match(j).group(2), p2.match(j).group(3), '0', p2.match(j).group(6), p2.match(j).group(7) )
-        cmdList.append(cmd)
+        cmd = 'distance #%s:%s.%s@ca #%s:%s.%s@ca ; '%( '0', p2.match(j).group(2), p2.match(j).group(3), str(model), p2.match(j).group(6), p2.match(j).group(7) )
+
+        if exceptRes is None:
+          cmdList.append(cmd)
+        elif str(exceptRes) in cmd:
+          continue
+        else:
+          cmdList.append(cmd)
 
     print("".join(cmdList))
 
